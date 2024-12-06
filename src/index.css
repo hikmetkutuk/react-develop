@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    height: 100vh;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    border-radius: 90%;
+    background: purple;
+}
