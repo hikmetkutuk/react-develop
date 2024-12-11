@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import PulsingButton from "./components/PulsingButton";
 import BouncingLoader from "./components/BouncingLoader";
 import { useState } from "react";
+import FlippingCard from "./components/FlippingCard";
 
 const App = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -26,6 +27,7 @@ const App = () => {
       />
       <PulsingButton />
       <BouncingLoader />
+      <FlippingCard />
     </div>
   );
 };
